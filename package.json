@@ -4,7 +4,7 @@
   "description": "This is a test",
   "main": "index.html",
   "scripts": {
-    "start":"lite",
+    "start":"npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite":"lite-server"
   },
@@ -18,7 +18,7 @@
     "url": "https://github.com/aswanth1989/git-test/issues"
   },
   "homepage": "https://github.com/aswanth1989/git-test#readme",
-  "dependencies": {
+  "devDependencies": {
     "lite-server": "^2.5.4"
   }
 }
